@@ -1,0 +1,403 @@
+
+---
+
+# 🐧 Linux Commands Practice (28-06)
+
+---
+
+## Command:
+
+ls
+
+**Purpose:**
+Lists all files and folders in the current directory.
+
+**Syntax:**
+
+```bash
+ls [options]
+```
+
+**Example:**
+
+```bash
+ls -la
+```
+
+**Output:**
+Displays all files and folders, including hidden files, in detailed format.
+
+**Real-world Use:**
+Used daily by Linux users and administrators to inspect directory contents.
+
+---
+
+## Command:
+
+cd
+
+**Purpose:**
+Changes the current working directory.
+
+**Syntax:**
+
+```bash
+cd [directory_name]
+```
+
+**Example:**
+
+```bash
+cd Documents
+```
+
+**Output:**
+Moves the terminal into the specified directory.
+
+**Real-world Use:**
+Used to navigate between folders in Linux systems.
+
+---
+
+## Command:
+
+mkdir
+
+**Purpose:**
+Creates a new directory (folder).
+
+**Syntax:**
+
+```bash
+mkdir [folder_name]
+```
+
+**Example:**
+
+```bash
+mkdir project
+```
+
+**Output:**
+Creates a folder named "project".
+
+**Real-world Use:**
+Used to organize files into structured directories.
+
+---
+
+## Command:
+
+pwd
+
+**Purpose:**
+Shows the current working directory path.
+
+**Syntax:**
+
+```bash
+pwd
+```
+
+**Example:**
+
+```bash
+pwd
+```
+
+**Output:**
+Displays full path of current directory.
+
+**Real-world Use:**
+Used to confirm current location in file system.
+
+---
+
+## Command:
+
+touch
+
+**Purpose:**
+Creates an empty file.
+
+**Syntax:**
+
+```bash
+touch [file_name]
+```
+
+**Example:**
+
+```bash
+touch file.txt
+```
+
+**Output:**
+Creates a new empty file named file.txt.
+
+**Real-world Use:**
+Used to quickly create files for logs, scripts, or notes.
+
+---
+
+## Command:
+
+rm
+
+**Purpose:**
+Removes files or directories.
+
+**Syntax:**
+
+```bash
+rm [file_name]
+```
+
+**Example:**
+
+```bash
+rm file.txt
+```
+
+**Output:**
+Deletes the specified file.
+
+**Real-world Use:**
+Used to clean up unwanted files and manage storage.
+
+---
+
+# 📁 File Operations
+
+---
+
+## Command:
+
+mv
+
+**Purpose:**
+Renames or moves a file.
+
+**Syntax:**
+
+```bash
+mv [old_name] [new_name]
+```
+
+**Example:**
+
+```bash
+mv oldfile newfile
+```
+
+**Output:**
+Renames "oldfile" to "newfile".
+
+**Real-world Use:**
+Used for renaming files or moving them between directories.
+
+---
+
+## Command:
+
+cp (copy file)
+
+**Purpose:**
+Copies a file.
+
+**Syntax:**
+
+```bash
+cp [source] [destination]
+```
+
+**Example:**
+
+```bash
+cp newcreatingfile creatingfile
+```
+
+**Output:**
+Creates a duplicate of the file.
+
+**Real-world Use:**
+Used for backup or duplication of files.
+
+---
+
+## Command:
+
+cp (copy to directory)
+
+**Purpose:**
+Copies a file into another directory.
+
+**Syntax:**
+
+```bash
+cp [file] [directory_path]
+```
+
+**Example:**
+
+```bash
+cp newcreatingfile /home/workspace/career-transtion-2026/01_linux/pratice
+```
+
+**Output:**
+File is copied into the specified directory.
+
+**Real-world Use:**
+Used for moving copies of files into project or backup folders.
+
+---
+
+## Command:
+
+cp -r
+
+**Purpose:**
+Recursively copies directories and their contents.
+
+**Syntax:**
+
+```bash
+cp -r [source_folder] [destination_folder]
+```
+
+**Example:**
+
+```bash
+cp -r practice newpractice
+```
+
+**Output:**
+Entire folder is copied including all files inside.
+
+**Real-world Use:**
+Used for copying projects or full directories.
+
+---
+
+## Command:
+
+cp -rv
+
+**Purpose:**
+Recursively copies directories with detailed output and overwrite prompts.
+
+**Syntax:**
+
+```bash
+cp -rv [source] [destination]
+```
+
+**Example:**
+
+```bash
+cp -rv creatingfile project_backup
+```
+
+**Output:**
+Shows each file being copied and asks before overwriting.
+
+**Real-world Use:**
+Used for safe backups with visibility of operations.
+
+---
+
+# 📝 Echo Command
+
+---
+
+## Command:
+
+echo (write content)
+
+**Purpose:**
+Writes text into a file (overwrites existing content).
+
+**Syntax:**
+
+```bash
+echo "text" > file.txt
+```
+
+**Example:**
+
+```bash
+echo "hi" > file.txt
+```
+
+**Output:**
+Creates file or overwrites it with "hi".
+
+**Real-world Use:**
+Used for creating or updating configuration files.
+
+---
+
+## Command:
+
+echo (append content)
+
+**Purpose:**
+Adds content to an existing file.
+
+**Syntax:**
+
+```bash
+echo "text" >> file.txt
+```
+
+**Example:**
+
+```bash
+echo "hello" >> file.txt
+```
+
+**Output:**
+Adds "hello" to the next line without deleting old content.
+
+**Real-world Use:**
+Used for logging or appending data.
+
+---
+
+## Command:
+
+echo (multiple lines)
+
+**Purpose:**
+Writes multiple lines into a file.
+
+**Syntax:**
+
+```bash
+echo -e "line1\nline2" > file.txt
+```
+
+**Example:**
+
+```bash
+echo -e "hi\nhello" > file.txt
+```
+
+**Output:**
+Creates file with multiple lines:
+
+```
+hi
+hello
+```
+
+**Real-world Use:**
+Used for generating structured text files or scripts.
+
+---
+
+
+find . -name "file name"   to find the specific file path
+
+
+

@@ -1,0 +1,1880 @@
+
+
+==================================================
+FILE: ./.gitignore
+==================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#   Usually these files are written by a python script from a template
+#   before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+# Pipfile.lock
+
+# UV
+#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+# uv.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+# poetry.lock
+# poetry.toml
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
+#   https://pdm-project.org/en/latest/usage/project/#working-with-version-control
+# pdm.lock
+# pdm.toml
+.pdm-python
+.pdm-build/
+
+# pixi
+#   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
+# pixi.lock
+#   Pixi creates a virtual environment in the .pixi directory, just like venv module creates one
+#   in the .venv directory. It is recommended not to include this directory in version control.
+.pixi
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# Redis
+*.rdb
+*.aof
+*.pid
+
+# RabbitMQ
+mnesia/
+rabbitmq/
+rabbitmq-data/
+
+# ActiveMQ
+activemq-data/
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#   JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#   be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#   and can be added to the global gitignore or merged into this file.  For a more nuclear
+#   option (not recommended) you can uncomment the following to ignore the entire idea folder.
+# .idea/
+
+# Abstra
+#   Abstra is an AI-powered process automation framework.
+#   Ignore directories containing user credentials, local state, and settings.
+#   Learn more at https://abstra.io/docs
+.abstra/
+
+# Visual Studio Code
+#   Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
+#   that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+#   and can be added to the global gitignore or merged into this file. However, if you prefer, 
+#   you could uncomment the following to ignore the entire vscode folder
+# .vscode/
+# Temporary file for partial code execution
+tempCodeRunnerFile.py
+
+# Ruff stuff:
+.ruff_cache/
+
+# PyPI configuration file
+.pypirc
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# Streamlit
+.streamlit/secrets.toml
+
+
+==================================================
+FILE: ./01_linux/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./01_linux/README.md
+==================================================
+Linux Module
+
+Status:
+Not Started
+
+Topics
+
+Labs
+
+Assignments
+
+Interview Questions
+
+Projects
+
+==================================================
+FILE: ./01_linux/flashcards.md
+==================================================
+🧠 OS & Linux Flashcards
+📌 Operating System
+
+Q: What is an Operating System?
+A: An interface between software applications and hardware that manages system resources.
+
+📌 Process Management
+
+Q: What is process management?
+A: It manages running programs like Chrome, VSCode, etc.
+
+Q: What is scheduling?
+A: Decision of which process should run next.
+
+Q: What is CPU allocation?
+A: Assigning CPU time to a process.
+
+Q: What is multitasking?
+A: Switching CPU between multiple processes quickly to give the illusion of parallel execution.
+
+📌 Memory Management
+
+Q: What does memory management do?
+A: Allocates, frees, and protects RAM usage between applications.
+
+📌 File Management
+
+Q: What is file management in OS?
+A: Handles create, delete, read, write, rename, and permissions of files.
+
+📌 Device Management
+
+Q: What does device management handle?
+A: Controls hardware like keyboard, mouse, printer, USB, monitor.
+
+📌 Security
+
+Q: What is OS security?
+A: Protects system from unauthorized access and misuse.
+
+Q: What is a firewall?
+A: A system that filters incoming and outgoing network traffic.
+
+📌 Linux
+
+Q: What is Linux?
+A: A Unix-like operating system built around the Linux kernel.
+
+Q: What is a kernel?
+A: Core of OS that connects software with hardware.
+
+📌 Shell
+
+Q: What is a shell?
+A: A command interpreter between user and kernel.
+
+Q: Example of shell command?
+A: ls → lists files.
+
+📌 Terminal
+
+Q: What is a terminal?
+A: A tool used to run shell commands.
+
+📌 GUI vs CLI
+
+Q: What is GUI?
+A: Graphical interface using windows, icons, mouse.
+
+Q: Advantages of GUI?
+
+Feature
+Easy to use
+Visual
+Beginner friendly
+
+Q: Disadvantages of GUI?
+
+Feature
+Uses more RAM
+Slower
+Hard to automate
+
+Q: What is CLI?
+A: Command Line Interface using text commands.
+
+Q: CLI commands examples:
+
+ls → list files
+pwd → show directory
+cd → change directory
+mkdir → create folder
+
+Q: Advantages of CLI?
+
+Feature
+Fast
+Automation
+Uses less RAM
+Powerful
+Remote access
+
+Q: Disadvantages of CLI?
+A: Requires learning commands.
+
+📌 Linux Distribution
+
+Q: What is a Linux distribution?
+A: A complete OS built using kernel + tools + package manager + applications.
+
+📌 File Commands
+
+Q: What does ls do?
+A: Lists files in directory.
+
+Q: What does cd do?
+A: Changes directory.
+
+Q: What does pwd do?
+A: Shows current directory.
+
+Q: What does mkdir do?
+A: Creates a folder.
+
+Q: What does touch do?
+A: Creates a file.
+
+Q: What does rm do?
+A: Removes file.
+
+📌 File Operations (Important)
+
+Q: What does mv old new do?
+A: Renames a file or moves it.
+
+Q: What does cp old new do?
+A: Copies file into new file.
+
+Q: What does cp file /directory/ do?
+A: Copies file into another directory.
+
+Q: What does cp -r folder newfolder do?
+A: Copies a folder recursively.
+
+📌 Echo Command
+
+Q: What does echo "hi" > file.txt do?
+A: Writes content into file (overwrites).
+
+Q: What does >> do in echo?
+A: Appends content to file.
+
+Q: What does echo -e do?
+A: Allows special characters like newline (\n).
+
+==================================================
+FILE: ./01_linux/labs/commands.txt
+==================================================
+
+---
+
+# 🐧 Linux Commands Practice (28-06)
+
+---
+
+## Command:
+
+ls
+
+**Purpose:**
+Lists all files and folders in the current directory.
+
+**Syntax:**
+
+```bash
+ls [options]
+```
+
+**Example:**
+
+```bash
+ls -la
+```
+
+**Output:**
+Displays all files and folders, including hidden files, in detailed format.
+
+**Real-world Use:**
+Used daily by Linux users and administrators to inspect directory contents.
+
+---
+
+## Command:
+
+cd
+
+**Purpose:**
+Changes the current working directory.
+
+**Syntax:**
+
+```bash
+cd [directory_name]
+```
+
+**Example:**
+
+```bash
+cd Documents
+```
+
+**Output:**
+Moves the terminal into the specified directory.
+
+**Real-world Use:**
+Used to navigate between folders in Linux systems.
+
+---
+
+## Command:
+
+mkdir
+
+**Purpose:**
+Creates a new directory (folder).
+
+**Syntax:**
+
+```bash
+mkdir [folder_name]
+```
+
+**Example:**
+
+```bash
+mkdir project
+```
+
+**Output:**
+Creates a folder named "project".
+
+**Real-world Use:**
+Used to organize files into structured directories.
+
+---
+
+## Command:
+
+pwd
+
+**Purpose:**
+Shows the current working directory path.
+
+**Syntax:**
+
+```bash
+pwd
+```
+
+**Example:**
+
+```bash
+pwd
+```
+
+**Output:**
+Displays full path of current directory.
+
+**Real-world Use:**
+Used to confirm current location in file system.
+
+---
+
+## Command:
+
+touch
+
+**Purpose:**
+Creates an empty file.
+
+**Syntax:**
+
+```bash
+touch [file_name]
+```
+
+**Example:**
+
+```bash
+touch file.txt
+```
+
+**Output:**
+Creates a new empty file named file.txt.
+
+**Real-world Use:**
+Used to quickly create files for logs, scripts, or notes.
+
+---
+
+## Command:
+
+rm
+
+**Purpose:**
+Removes files or directories.
+
+**Syntax:**
+
+```bash
+rm [file_name]
+```
+
+**Example:**
+
+```bash
+rm file.txt
+```
+
+**Output:**
+Deletes the specified file.
+
+**Real-world Use:**
+Used to clean up unwanted files and manage storage.
+
+---
+
+# 📁 File Operations
+
+---
+
+## Command:
+
+mv
+
+**Purpose:**
+Renames or moves a file.
+
+**Syntax:**
+
+```bash
+mv [old_name] [new_name]
+```
+
+**Example:**
+
+```bash
+mv oldfile newfile
+```
+
+**Output:**
+Renames "oldfile" to "newfile".
+
+**Real-world Use:**
+Used for renaming files or moving them between directories.
+
+---
+
+## Command:
+
+cp (copy file)
+
+**Purpose:**
+Copies a file.
+
+**Syntax:**
+
+```bash
+cp [source] [destination]
+```
+
+**Example:**
+
+```bash
+cp newcreatingfile creatingfile
+```
+
+**Output:**
+Creates a duplicate of the file.
+
+**Real-world Use:**
+Used for backup or duplication of files.
+
+---
+
+## Command:
+
+cp (copy to directory)
+
+**Purpose:**
+Copies a file into another directory.
+
+**Syntax:**
+
+```bash
+cp [file] [directory_path]
+```
+
+**Example:**
+
+```bash
+cp newcreatingfile /home/workspace/career-transtion-2026/01_linux/pratice
+```
+
+**Output:**
+File is copied into the specified directory.
+
+**Real-world Use:**
+Used for moving copies of files into project or backup folders.
+
+---
+
+## Command:
+
+cp -r
+
+**Purpose:**
+Recursively copies directories and their contents.
+
+**Syntax:**
+
+```bash
+cp -r [source_folder] [destination_folder]
+```
+
+**Example:**
+
+```bash
+cp -r practice newpractice
+```
+
+**Output:**
+Entire folder is copied including all files inside.
+
+**Real-world Use:**
+Used for copying projects or full directories.
+
+---
+
+## Command:
+
+cp -rv
+
+**Purpose:**
+Recursively copies directories with detailed output and overwrite prompts.
+
+**Syntax:**
+
+```bash
+cp -rv [source] [destination]
+```
+
+**Example:**
+
+```bash
+cp -rv creatingfile project_backup
+```
+
+**Output:**
+Shows each file being copied and asks before overwriting.
+
+**Real-world Use:**
+Used for safe backups with visibility of operations.
+
+---
+
+# 📝 Echo Command
+
+---
+
+## Command:
+
+echo (write content)
+
+**Purpose:**
+Writes text into a file (overwrites existing content).
+
+**Syntax:**
+
+```bash
+echo "text" > file.txt
+```
+
+**Example:**
+
+```bash
+echo "hi" > file.txt
+```
+
+**Output:**
+Creates file or overwrites it with "hi".
+
+**Real-world Use:**
+Used for creating or updating configuration files.
+
+---
+
+## Command:
+
+echo (append content)
+
+**Purpose:**
+Adds content to an existing file.
+
+**Syntax:**
+
+```bash
+echo "text" >> file.txt
+```
+
+**Example:**
+
+```bash
+echo "hello" >> file.txt
+```
+
+**Output:**
+Adds "hello" to the next line without deleting old content.
+
+**Real-world Use:**
+Used for logging or appending data.
+
+---
+
+## Command:
+
+echo (multiple lines)
+
+**Purpose:**
+Writes multiple lines into a file.
+
+**Syntax:**
+
+```bash
+echo -e "line1\nline2" > file.txt
+```
+
+**Example:**
+
+```bash
+echo -e "hi\nhello" > file.txt
+```
+
+**Output:**
+Creates file with multiple lines:
+
+```
+hi
+hello
+```
+
+**Real-world Use:**
+Used for generating structured text files or scripts.
+
+---
+
+
+find . -name "file name"   to find the specific file path
+
+
+
+
+
+==================================================
+FILE: ./01_linux/notes/day01-linux-fundamentals.md
+==================================================
+Operating System (OS) Basics
+
+OS - It is nothing but a interface which acts / communicate in between the software application and hadware as an intermidate.
+
+Main Functionalities of OS
+1. Process Management
+
+Managing the running programs which is called Process.
+
+Example: Running applications like Chrome, VSCode, etc.
+
+Note:
+
+The OS itself decides which program runs first
+CPU allocation → It is the thing that gives CPU to the process
+Scheduling → It is the thing that selects among 4 processes what to run
+Multitasking → It is the keeping on shifting the CPU among the processes at the same interval of time. To imagine all processes working at a time
+
+Summary:
+Scheduling is the decision-making step, CPU allocation is the action of handing over the CPU, and multitasking is the overall behavior produced by repeatedly scheduling and allocating the CPU among processes.
+
+2. Memory Management
+
+It is the one how manages RAM (Random Access Memory) and does things like:
+
+Allocation of memory
+Free unused memory
+Prevent applications from interfering with each other
+3. File Management
+
+It manages file operations like:
+
+Creation
+Deleting
+Rename
+Read
+Write
+Permissions
+4. Device Management
+
+Controls hardware devices like:
+
+Keyboard
+Mouse
+Printer
+Monitor
+USB drives
+5. Security
+
+Protecting the computer, its data, and its resources from unauthorized access, misuse, or attacks.
+
+Provides:
+
+User authentication
+Passwords
+Permissions
+Encryption
+Firewall
+Notes:
+Reason keeps sensitive data confidential
+Firewall acts like a watchman to the network
+It checks incoming and outgoing data and decides whether to:
+✅ Allow safe traffic
+❌ Block suspicious or unauthorized traffic
+
+
+What is Linux?
+
+Linux is an open-source kernel that serves as the core of many operating systems such as Ubuntu, Debian, Fedora, and CentOS.
+
+Note:
+Kernel is the most important thing which acts as central part. It is the one that sends responses from hardware to software.
+
+Linux is used by most of the companies like:
+
+Google
+Amazon
+Meta
+Netflix
+NVIDIA
+Samsung
+Intel
+Oracle
+
+
+
+Shell
+
+A Shell is a command interpreter.
+
+It accepts commands from the user and sends them to the Linux Kernel.
+
+Example:
+
+ls → show all files list
+
+Popular shells:
+
+bash
+sh
+Shell Responsibilities
+Execute commands
+Run scripts
+Variables
+Loops
+Conditions
+Pipes
+Redirection
+Terminal
+
+It is the tool to use shell commands for executing, running, etc.
+
+GUI vs CLI
+GUI (Graphical User Interface)
+
+Uses:
+
+Windows
+Icons
+Mouse
+Buttons
+Advantages
+Advantages
+Easy to learn
+User friendly
+Visual
+Disadvantages
+Disadvantages
+Consumes more RAM
+Slower
+Harder to automate
+CLI (Command Line Interface)
+
+Uses commands to interact:
+
+ls → list files
+pwd → print working directory
+cd → change directory
+mkdir → create folder
+Advantages
+Advantages
+Very fast
+Automation
+Remote access
+Powerful
+Uses less RAM
+Preferred by DevOps engineers
+Disadvantages
+Disadvantages
+Requires learning commands
+What is Linux Distribution?
+
+It is a complete operating system built using:
+
+Linux Kernel
+GNU tools
+Package manager
+Desktop environment (optional)
+Utilities and applications
+
+A distribution packages everything needed to use Linux like Ubuntu, Debian, RedHat, CentOS, etc.
+
+Linux Architecture
+Linux Kernel
+        │
+ ┌──────┴──────────────┐
+ │                     │
+Debian Family      Red Hat Family
+ │                     │
+Ubuntu            Fedora
+ │                     │
+Linux Mint       RHEL
+                 │
+             CentOS Stream
+Interview Summary
+Operating System: Software that manages hardware and provides services for applications.
+Linux: Open-source Unix-like operating system built around the Linux Kernel.
+Why Linux?: Secure, stable, customizable, efficient, and dominant in servers, cloud, and DevOps.
+Kernel: Core of the OS that manages hardware, memory, processes, and devices.
+Shell: Command interpreter that translates user commands into actions for the kernel.
+Terminal: Application used to interact with the shell.
+GUI vs CLI: GUI is visual and beginner-friendly; CLI is faster, scriptable, and preferred for administration.
+Linux Distribution: Complete OS combining kernel, tools, package manager, and apps.
+
+
+Linux Commands Practice (28-06)
+ls → list all files
+cd → change directory
+mkdir → create folder
+pwd → present working directory
+touch → create file
+rm → remove file
+File Operations
+
+Rename file:
+
+mv oldfile newfile
+
+Copy file:
+
+cp newcreatingfile creatingfile
+
+Copy file to another directory:
+
+cp newcreatingfile /home/workspace/career-transtion-2026/01_linux/pratice
+
+Copy folder:
+
+cp -r practice newpractice
+
+Verbose copy with overwrite prompt:
+
+cp -rv creatingfile project_backup
+Echo Command
+
+Write content:
+
+echo "hi" > file.txt
+
+Append content:
+
+echo "hello" >> file.txt
+
+Multiple lines:
+
+echo -e "hi\nhello" > file.txt
+
+
+
+==================================================
+FILE: ./01_linux/notes/day02-linux-filesystem.md
+==================================================
+````md
+# Linux System vs Windows (Very Early Concept)
+
+At the very beginning:
+- Windows was installed on top of DOS (Disk Operating System)
+
+---
+
+# Linux Filesystem Hierarchy (FHS)
+
+Linux System
+│
+├── /home   → People's houses
+├── /etc    → Government office (configuration)
+├── /var    → Warehouse (logs, databases)
+├── /usr    → Shopping mall (applications)
+├── /lib    → Power station (libraries)
+└── /bin    → Toolbox (essential tools)
+
+---
+
+# Key Linux Directories Explained
+
+## /home
+It contains user-specific directories and data like:
+- Documents
+- Downloads
+- Personal program files
+
+👉 These are only for specific users, not all system users.
+
+---
+
+## /bin
+- “bin” means binary
+- Contains essential shell/system commands
+
+Example:
+- `ls`, `cp`, `mv`, `cat`
+
+---
+
+## /usr/bin
+- Contains installed programs and external packages
+
+---
+
+## /usr/local/bin
+- Used for manually installed software (by administrator)
+
+Example:
+- Node.js installed manually
+
+👉 Programs here are available to all users
+
+---
+
+## ~/.local/bin
+- User-specific binaries
+- Only accessible to that particular user
+
+---
+
+## PATH concept
+- When you type a command, the system searches directories in:
+
+```bash
+echo $PATH
+````
+
+* It finds executables inside `/bin`, `/usr/bin`, etc.
+
+To check where a command is located:
+
+```bash
+which ls
+```
+
+---
+
+## /root
+
+* Private home directory of the administrator (root user)
+* Has full system control
+
+👉 Not the entire system, just one special user directory
+
+---
+
+## /etc
+
+* Contains configuration files
+* Examples:
+
+  * User authentication
+  * Password settings
+  * Service configurations
+
+---
+
+## /var
+
+* Variable data storage
+* Includes:
+
+  * Logs
+  * Cache
+  * Databases
+
+---
+
+## /sbin
+
+(system binaries)
+
+* Contains system administration commands:
+
+  * reboot
+  * shutdown
+  * mount
+
+---
+
+## /lib
+
+* Contains libraries required by `/bin` and `/sbin`
+* Provides shared functions for programs
+
+---
+
+## /opt
+
+* Optional software packages
+
+---
+
+## /proc
+
+* Virtual filesystem
+* Provides process and system information
+
+Example:
+
+```bash
+cat /proc/cpuinfo
+```
+
+---
+
+## /srv
+
+* Service-related data
+* Used by web servers and network services
+* Improves structure and security
+
+---
+
+## /sys
+
+* Kernel-related system information
+* Can change system settings (hardware, GPU, etc.)
+* Recreated every reboot
+
+---
+
+## /tmp
+
+* Temporary files
+* Used by running applications
+* Cleared automatically in many systems
+
+---
+
+# File Permissions in Linux
+
+Permissions ensure system safety and prevent unauthorized changes.
+
+## Why permissions are needed?
+
+* Prevent accidental deletion of important files
+* Control access between users (developer, QA, etc.)
+
+---
+
+## User management commands
+
+```bash
+adduser <username>
+```
+
+Example users:
+
+* dev
+* qa
+
+---
+
+## Check users
+
+```bash
+cat /etc/passwd
+```
+
+---
+
+## File permissions
+
+Create a file:
+
+```bash
+touch /tmp/example.sh
+```
+
+Check permissions:
+
+```bash
+ls -ltr
+```
+
+---
+
+## chmod (change permissions)
+
+Example:
+
+```bash
+chmod o=example.sh
+```
+
+Permission structure:
+
+```
+-   rw   -   rw   -   r   --
+|    |       |        |
+dir  usr     grp    others
+```
+
+---
+
+## Key commands summary
+
+### find command
+
+```bash
+find . -name "filename"
+```
+
+Finds file paths in directory tree.
+
+---
+
+# Quick Q&A Section
+
+## What is /etc?
+
+Directory containing:
+
+* Users
+* Groups
+* Password/authentication files
+* System configurations
+
+---
+
+## What is /var?
+
+* Stores variable data like logs and cache
+
+---
+
+## What is /proc?
+
+* Virtual system files
+* Provides CPU, process, kernel info
+
+---
+
+## What is /dev?
+
+* Contains device files
+
+---
+
+## What is /tmp?
+
+* Temporary files for running processes
+
+---
+
+## Difference between /home and /root?
+
+* `/home`: Individual user directories
+* `/root`: Administrator (root user) home directory with full system control
+
+---
+
+## What does chmod do?
+
+* Changes file permissions (read/write/execute)
+
+---
+
+## What does chown do?
+
+* Changes file ownership
+
+---
+
+## Difference between ls and ls -la?
+
+* `ls` → shows file list
+* `ls -la` → shows all files including hidden ones
+
+---
+
+## What is a hidden file?
+
+* Files that store sensitive information like:
+
+  * passwords
+  * configuration data
+
+```
+
+---
+```
+
+
+==================================================
+FILE: ./02 - networking/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./03 - git/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./04 - python/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./05 - bash/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./06 - docker/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./07 - jenkins/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./08 - kubernetes/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./09 - terraform/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./10 - monitoring/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./11 - linux-system-programming/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./12 - projects/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./12 - projects/README.md
+==================================================
+Upcoming Projects
+
+Linux Admin Toolkit
+
+Python Automation Toolkit
+
+Docker CI/CD
+
+Terraform Infrastructure
+
+Monitoring Dashboard
+
+Job Agent
+
+Raspberry Pi Monitor
+
+==================================================
+FILE: ./13 - interview/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./13 - interview/README.md
+==================================================
+Linux
+
+Networking
+
+Docker
+
+Jenkins
+
+Terraform
+
+Python
+
+Behavioral
+
+==================================================
+FILE: ./14 - resume/resume-devops/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./14 - resume/resume-embedded/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./14 - resume/resume-platform/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./15 - job-agent/backend/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./15 - job-agent/database/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./15 - job-agent/design/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./15 - job-agent/docs/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./15 - job-agent/frontend/.gitkeep
+==================================================
+
+
+==================================================
+FILE: ./15 - job-agent/resources/career-goals.md
+==================================================
+
+
+## 1. Why do I want to leave my current company?
+
+**Answer:**
+
+> I've gained valuable experience in my current company, but my day-to-day responsibilities have become quite different from the role I was hired for. I'm looking for an opportunity where I can work more closely in my area of expertise, contribute to meaningful projects, and continue growing professionally. I'm also looking for better exposure to industry practices, stronger learning opportunities, and long-term career growth.
+
+---
+
+## 2. What kind of work do I enjoy?
+
+**Answer:**
+
+> I enjoy work that involves DevOps and Site Reliability Engineering (SRE), especially tasks like:
+>
+> * Automating deployments
+> * Managing CI/CD pipelines
+> * Monitoring applications and infrastructure
+> * Troubleshooting production issues
+> * Improving system reliability
+>
+> I find it rewarding to ensure systems run smoothly and efficiently.
+>
+> While I have experience with development, I enjoy operational and infrastructure-focused work more than writing application code from scratch or spending most of my time on data structures and algorithms.
+>
+> I'm also interested in working for product-based companies, particularly those building innovative technologies in areas like:
+>
+> * Embedded systems
+> * Cloud platforms
+> * High-performance computing
+>
+> I believe such environments provide opportunities to work on large-scale products and learn from complex engineering challenges.
+
+### Follow-up: Why DevOps instead of Development?
+
+**Answer:**
+
+> I enjoy understanding how software is built, deployed, monitored, and maintained in production. I like solving real-world operational problems, automating repetitive tasks, and improving system reliability. That's why I find DevOps and SRE work more engaging than primarily focusing on application development.
+
+---
+
+## 3. What kind of work do I dislike?
+
+**Answer:**
+
+> I don't dislike any work, but my preference is different. I'm less interested in roles that primarily involve:
+>
+> * Building applications entirely from scratch
+> * Extensive DSA-focused development
+>
+> I enjoy DevOps and SRE work much more, including:
+>
+> * Automation
+> * CI/CD
+> * Cloud infrastructure
+> * Deployments
+> * Monitoring
+> * Solving production issues
+>
+> At the same time, I'm happy to write code whenever it's required for automation, tooling, or improving systems.
+
+---
+
+## Key Message to Remember
+
+* Focus on **growth**, not dissatisfaction.
+* Prefer **DevOps, SRE, Cloud, Automation, and Infrastructure** work.
+* Comfortable with coding when needed, but prefer operational and reliability engineering.
+* Looking for:
+
+  * Better role alignment
+  * Product-based company experience
+  * Continuous learning
+  * Challenging projects
+  * Long-term career growth
+
+## Salary Goal
+
+Minimum → ₹8 LPA
+
+Target → ₹12 LPA
+
+Dream → ₹18+ LPA
+
+==================================================
+FILE: ./LICENSE
+==================================================
+MIT License
+
+Copyright (c) 2026 suriiya00
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+==================================================
+FILE: ./README.md
+==================================================
+# career-transition-2026
+My 6-month journey to become a Product Company DevOps / Platform Engineer.
+
+
+==================================================
+FILE: ./daily-progress/day00.md
+==================================================
+# Day 00
+
+**Date:** 27 June 2026
+
+---
+
+## 🎯 Today's Goals
+
+* [x] GitHub repository created
+* [x] Codespace started
+* [x] Folder structure completed
+* [x] README created
+* [x] Career goals written
+* [x] Resume folders created
+* [x] Job agent folders created
+* [x] Day 00 journal completed
+* [x] First commit pushed
+
+---
+
+## ✅ What I Completed
+
+* Successfully completed all the planned tasks for Day 00.
+* Set up the project repository and development environment.
+* Organized the folder structure.
+* Created the initial README.
+* Documented career goals.
+* Created folders for resumes and job applications.
+* Completed the Day 00 journal.
+* Pushed the first commit to GitHub.
+
+---
+
+## ⚠️ Problems Faced
+
+* None.
+
+---
+
+## 📚 Things I Learned
+
+* Creating and organizing GitHub repositories.
+* Writing effective README files.
+* Structuring a project repository for future work.
+* Making and pushing commits using Git.
+
+---
+
+## ❓ Questions
+
+* No questions for today.
+
+---
+
+## 🚀 Tomorrow's Goals
+
+
+
+
+==================================================
+FILE: ./daily-progress/day01.md
+==================================================
+# Day 00
+
+**Date:** 27 June 2026
+
+---
+
+## 🎯 Today's Goals
+
+Task	
+Learn what an Operating System is	✅ 
+Learn what Linux is	✅ 
+Learn why Linux is used in companies✅ 	
+Learn Linux Kernel	✅ 
+Learn Shell	✅ 
+Learn Terminal	✅ 
+Learn GUI vs CLI	✅ 
+Learn Linux Distributions	✅ 
+Learn Linux File Operations	✅ 
+Practice Linux commands	✅ 
+Practice file creation, copy, move, rename, delete✅ 
+Practice echo command	 ✅ 
+Create Linux notes ✅ 	
+Create practice files ✅ 	
+Create flashcards/interview notes	✅ 
+Push work to GitHub ✅ 
+
+---
+
+## ✅ What I Completed
+
+✅ Operating System
+✅ Process Management
+✅ Memory Management
+✅ File Management
+✅ Device Management
+✅ Security
+✅ Linux
+✅ Linux Kernel
+✅ Shell
+✅ Terminal
+✅ GUI vs CLI
+✅ Linux Distributions
+✅ Basic Linux Commands
+✅ File Operations
+✅ Echo Command
+💻 Commands Practiced
+✅ pwd
+✅ ls
+✅ cd
+✅ mkdir
+✅ touch
+✅ cp
+✅ mv
+✅ rm
+✅ echo
+✅ history
+
+---
+
+## ⚠️ Problems Faced
+
+* None.
+
+---
+
+## 📚 Things I Learned
+
+* Linux is technically the kernel.
+* The shell interprets commands and passes them to the kernel.
+* cp -r copies directories recursively.
+* echo >> appends to a file instead of overwriting it.
+* CLI is preferred for automation because it's scriptable.
+
+---
+
+## ❓ Questions
+
+* No questions for today.
+
+---
+
+## 🚀 Tomorrow's Goals
+
+
+
+
+==================================================
+FILE: ./daily-progress/progress.json
+==================================================
+{
+  "day": 0,
+  "date": "2026-06-27",
+  "module": "Setup",
+  "status": "Completed",
+  "time_spent": "1h 00m",
+  "confidence": 9,
+  "topics": [
+    "GitHub",
+    "Codespaces",
+    "Repository Structure"
+  ],
+  "next_day": "Linux Fundamentals"
+}
+
+==================================================
+FILE: ./newfile
+==================================================
+
+
+==================================================
+FILE: ./repository_contents.txt
+==================================================
+
+
+==================================================
+FILE: ./tools/repository_contents.txt
+==================================================
+
+
+==================================================
+FILE: ./repository_contents.txt
+==================================================
+
+
+==================================================
+FILE: ./review-export.sh
+==================================================
+OUTPUT="repository_contents.txt"
+
+> "$OUTPUT"
+
+find . -type f \
+! -path "./.git/*" \
+! -path "./.vscode/*" \
+! -name "*.png" \
+! -name "*.jpg" \
+! -name "*.jpeg" \
+! -name "*.gif" \
+! -name "*.pdf" \
+! -name "*.zip" \
+! -name "*.pyc" \
+! -name "*.log" \
+! -name "*.db" \
+| sort | while read file
+do
+    echo -e "\n\n==================================================" >> "$OUTPUT"
+    echo "FILE: $file" >> "$OUTPUT"
+    echo "==================================================" >> "$OUTPUT"
+    cat "$file" >> "$OUTPUT"
+done
+
+echo "Repository exported to $OUTPUT"
+
+==================================================
+FILE: ./tools/review-export.sh
+==================================================
+OUTPUT="repository_contents.txt"
+
+> "$OUTPUT"
+
+find . -type f \
+! -path "./.git/*" \
+! -path "./.vscode/*" \
+! -name "*.png" \
+! -name "*.jpg" \
+! -name "*.jpeg" \
+! -name "*.gif" \
+! -name "*.pdf" \
+! -name "*.zip" \
+! -name "*.pyc" \
+! -name "*.log" \
+! -name "*.db" \
+| sort | while read file
+do
+    echo -e "\n\n==================================================" >> "$OUTPUT"
+    echo "FILE: $file" >> "$OUTPUT"
+    echo "==================================================" >> "$OUTPUT"
+    cat "$file" >> "$OUTPUT"
+done
+
+echo "Repository exported to $OUTPUT"

@@ -1,0 +1,35 @@
+
+
+==================================================
+FILE: ./repository_contents.txt
+==================================================
+
+
+==================================================
+FILE: ./review-export.sh
+==================================================
+OUTPUT="repository_contents.txt"
+
+> "$OUTPUT"
+
+find . -type f \
+! -path "./.git/*" \
+! -path "./.vscode/*" \
+! -name "*.png" \
+! -name "*.jpg" \
+! -name "*.jpeg" \
+! -name "*.gif" \
+! -name "*.pdf" \
+! -name "*.zip" \
+! -name "*.pyc" \
+! -name "*.log" \
+! -name "*.db" \
+| sort | while read file
+do
+    echo -e "\n\n==================================================" >> "$OUTPUT"
+    echo "FILE: $file" >> "$OUTPUT"
+    echo "==================================================" >> "$OUTPUT"
+    cat "$file" >> "$OUTPUT"
+done
+
+echo "Repository exported to $OUTPUT"
